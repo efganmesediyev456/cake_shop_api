@@ -1,0 +1,28 @@
+# For a quick start check out our HTTP Requests collection (Tools|HTTP Client|Open HTTP Requests Collection).
+#
+# Following HTTP Request Live Templates are available:
+# * 'gtrp' and 'gtr' create a GET request with or without query parameters;
+# * 'ptr' and 'ptrp' create a POST request with a simple or parameter-like body;
+# * 'mptr' and 'fptr' create a POST request to submit a form with a text or file field (multipart/form-data);
+
+
+
+POST http://localhost:8000/api/admin/add-edit-cake HTTP/1.1
+Accept: application/json
+Authorization: Bearer eyJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJhdWQiOiIxIiwianRpIjoiYjI4MWVmOTE3YzM0NGJjOTllMWI3MjE1MjQzZmYyNzczNGFiYjIzZDUwN2QyYmE1NDk2MjM5Y2FkYmM2YmU2ZGFjNjI0OTVkM2I3NWRjZDgiLCJpYXQiOjE2MzkwNDE2MzguMDA1ODM4LCJuYmYiOjE2MzkwNDE2MzguMDA1ODQ4LCJleHAiOjE2NzA1Nzc2MzcuOTIzNzgyLCJzdWIiOiIyIiwic2NvcGVzIjpbXX0.AkP5r-A__r5sLsxsD30ypcKQjxgxKhhYd1-I0yMd67Ra7IuRZV6JQNApsnvu3ZBliBYQRYPrCERDFXDhtExkQUkAe7-fx8w64O1gIfw4muZ_4Ih3Rp6GLZ3qtaV68kvrvUbq0-TmqtwBw3yVEvvhLmMyPZxmbhfsfW47i31ja09odm5te2W7-lyq90QtOLcG5R91ILPodjoN8g8bGd7mRhDRGefUyo-G7sIOzZgfzxveuHDeOuJj_pKjVoYfcpm-vruVZw3MUp15uNLN0cBXvBivAiyTjkBH7CWgDWYSZIUh0oBqzAumYC4vQ_xx5Q2imQ9mnFk1XBgXa6gfk4Fu5gcG3EMmjb4vGMcOQLQMP92xo5_D7qxpl9O1P2nmXj6fUgoHzPzicQrCfVYYNvEXY5a3D3fYzMEQTtqXr7gOVK6-emL3U16nM6zppaYKqCSi3u2CZozsZXdnmg2ICPSiM48GQZWaAdnBnj2Z48W6IIAfUxVqoLftfRU9-PGHqKAp0udUA2qsJt8A_uX6WoBDtL80mmTErxbvJcevQp2tf0e8vwHbDEMjnRxBQG-HtUQ63VJ3vZthVa2IfQSOrDStDLwJ-L7Hd1-jZJM5rEzGB9LA4cJog23DuCH1wbtQLM7SQRCVEOL7OZk1-xWp7nbSbDYH6Xt35mj84sa29l2Afmg
+Content-Type: multipart/form-data&boundary=140f0f40c9f411e19b230800200c9a66
+
+
+
+{
+  "id": 0,
+  "name": "efgan",
+  "price": "200.00",
+  "description": "salam dostum",
+  "category_id": "48",
+  "image": "https://picsum.photos/200/300"
+}
+
+
+
+###
